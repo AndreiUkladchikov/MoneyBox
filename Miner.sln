@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34321.82
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miner", "Miner\Miner.csproj", "{76E6B9D1-4CF3-4C43-8055-9AF89676143B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Miner", "Miner\Miner.csproj", "{76E6B9D1-4CF3-4C43-8055-9AF89676143B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{B4D46E35-C481-4B7B-9F45-79489506F6C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Repository", "Repository\Repository.csproj", "{B4D46E35-C481-4B7B-9F45-79489506F6C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{BA5B0DCA-7FE1-4A56-813E-32C8D35DBAC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B4D46E35-C481-4B7B-9F45-79489506F6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B4D46E35-C481-4B7B-9F45-79489506F6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4D46E35-C481-4B7B-9F45-79489506F6C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA5B0DCA-7FE1-4A56-813E-32C8D35DBAC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA5B0DCA-7FE1-4A56-813E-32C8D35DBAC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA5B0DCA-7FE1-4A56-813E-32C8D35DBAC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA5B0DCA-7FE1-4A56-813E-32C8D35DBAC1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

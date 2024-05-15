@@ -1,7 +1,4 @@
-﻿using System.IO;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore.Sqlite;
-using System.Reflection.Metadata;
+﻿using Microsoft.EntityFrameworkCore;
 using Repository.Models;
 
 namespace Repository
