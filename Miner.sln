@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34321.82
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Miner", "Miner\Miner.csproj", "{76E6B9D1-4CF3-4C43-8055-9AF89676143B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository", "Repository\Repository.csproj", "{B4D46E35-C481-4B7B-9F45-79489506F6C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{76E6B9D1-4CF3-4C43-8055-9AF89676143B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76E6B9D1-4CF3-4C43-8055-9AF89676143B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76E6B9D1-4CF3-4C43-8055-9AF89676143B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4D46E35-C481-4B7B-9F45-79489506F6C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4D46E35-C481-4B7B-9F45-79489506F6C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4D46E35-C481-4B7B-9F45-79489506F6C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4D46E35-C481-4B7B-9F45-79489506F6C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
