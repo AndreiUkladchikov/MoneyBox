@@ -33,5 +33,23 @@ namespace Repository
             _dbContext.SaveChanges();
         }
 
+        public IEnumerable<MoneyLog> GetMoneyLogs()
+        {
+            var result = _dbContext.MoneyLogs;
+
+            return result.ToList();
+        }
+
+        public MoneyTotal GetMoneyTotal()
+        {
+            var lastRecord = _dbContext.MoneyTotals.OrderBy(r => r.Date).LastOrDefault();
+            
+            if (lastRecord is not null)
+            {
+                return lastRecord;
+            }
+
+            return new MoneyTotal();
+        }
     }
 }
